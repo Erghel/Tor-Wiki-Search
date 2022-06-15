@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    background-color: #7d4698;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search__input {
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.5rem !important;
+
+}
+
+button {
+    color: #111;
+    display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    border-color: #FFBF00;
+    color: #111;
+    background-color: #FFBF00;
+    padding: 0.5rem !important;
+}

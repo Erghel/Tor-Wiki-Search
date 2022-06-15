@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Tor Wiki Search",
+    "version": "0.1",
+    "description": "Find interst you information about Tor on official website.",
+    "icons": {
+      "48": "images/onion.png"
+    },
+    "content_scripts": [ 
+      {
+        "js": ["script.js"],
+        "matches": [
+          "https://*/*", "https://*/*"
+        ]
+      }
+    ],
+    "permissions": [
+      "https://*/*",
+      "https://*/*",
+      "tabs",
+      "webNavigation",
+      "webRequest"
+    ],
+    "browser_action": {
+      "default_title": "Tor Wiki Search",
+      "default_popup": "popup.html"
+    }
+  }
